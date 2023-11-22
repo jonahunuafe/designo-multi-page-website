@@ -61,16 +61,16 @@ nav ul li a {
 
 .frame-section {
     background-color: var(--peach-color);
-    height: 100vh;
     position: relative;
     overflow: hidden;
     color: var(--white-color);
+    margin-bottom: 10%;
 }
 
 #small-circle img {
-    width: 160%;
+    width: 180%;
     position: absolute;
-    margin-top: 28%;
+    top: 7.8rem;
 }
 
 .frame-container {
@@ -108,9 +108,11 @@ h1 {
 }
 
 #hero-phone {
-    width: 150%;
-    position: absolute;
-    transform: translate(-10%, -10%);
+    width: 180%;
+    margin-top: -25%;
+    margin-left: -38.9%;
+    margin-bottom: -105%;
+    position: relative;
 }
 
 
