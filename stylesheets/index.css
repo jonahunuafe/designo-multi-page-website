@@ -1,5 +1,4 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Montserrat:wght@200&family=Poppins:wght@300;400;600;700&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Montserrat:wght@100&family=Poppins:wght@300;400;600;700&family=Roboto+Mono:wght@300&family=Roboto:wght@100;300;400&display=swap');
 
 *,
 *::before,
@@ -10,28 +9,37 @@ url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Mon
 }
 
 :root {
-   --black-color: #191717;
+   --black-color: #1D1C1E;
    --white-color: #fff;
+   --peach-color: #E7816B;
+   --lightPeach-color: #FFAD98;
+   --darkGrey-color: #333136;
+   --lightGrey-color: #F1F3F5;
+   --h1-font: 1.8rem;
+   --medium-bold: 600;
+   --very-bold: 700;
+   --h2-font: 1.7rem;
+   --h3-font: 1.4rem;
+   --letter-spacing: 0.1rem;
 }
 
-body, html {
-    overflow: hidden;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 #logo {
-    width: 50%;
-} 
+    width: 60%;
+}
 
-/* #menu {
-    width: 10%;
-    height: 15px;
-} */
+#menu {
+    height: 20px;
+}
 
 header {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin: auto;
+    margin: 10% auto 10% auto;
 }
 
 nav {
@@ -49,6 +57,60 @@ nav ul li a {
     text-transform: uppercase;
     line-height: 3;
     color: var(--white-color);
+}
+
+.frame-section {
+    background-color: var(--peach-color);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    color: var(--white-color);
+}
+
+#small-circle img {
+    width: 160%;
+    position: absolute;
+    margin-top: 28%;
+}
+
+.frame-container {
+   width: 90%;
+   margin: auto;
+}
+
+#frame-txt {
+    text-align: center;
+    margin-top: 25%;
+}
+
+h1 {
+    font-size: var(--h1-font);
+    font-weight: var(--very-bold);
+    margin-bottom: 10%;
+    letter-spacing: var(--letter-spacing);
+}
+
+#frame-txt p {
+    line-height: 2;
+    margin-bottom: 6.5%;
+}
+
+#frame-txt button {
+    padding: 2em;
+    border: none;
+    border-radius: 1.2em;
+    background-color: var(--white-color);
+    text-transform: uppercase;
+    color: var(--black-color);
+    letter-spacing: var(--letter-spacing);
+    font-weight: var(--medium-bold);
+    cursor: pointer;
+}
+
+#hero-phone {
+    width: 150%;
+    position: absolute;
+    transform: translate(-10%, -10%);
 }
 
 
@@ -71,6 +133,14 @@ nav ul li a {
         position: relative;
         display: block;
     }
+
+    #small-circle img {
+        width: 30%;
+    }
+
+    #hero-phone {
+        width: 40%;
+    }
     
 }
 
@@ -78,5 +148,7 @@ nav ul li a {
 
 
 @media(min-width: 800px) {
-
+    .frame-section {
+        display: flex;
+    }
 }
