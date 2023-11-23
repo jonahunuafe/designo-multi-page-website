@@ -218,26 +218,35 @@ h1 {
     }
 
     #small-circle img {
-        width: 30%;
+        width: 51.5%;
         right: 0;
         top: 0;
     }
 
     .frame-container {
         display: flex;
+        justify-content: space-between;
         width: 90%;
     }
 
     #frame-txt {
+        width: 40%;
         margin-top: 10%;
         text-align: left;
+        margin-left: 0;
+    }
+
+    #frame-txt button {
+        margin-top: 1%;
+        margin-bottom: 15%;
     }
 
     #hero-phone {
-        width: 50%;
-        margin-top: -15%;
-        margin-bottom: -25%;
-        /* display: none; */
+        width: 60%;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: -32%;
+        transform: translate(15%, -6.5%);
     }
 
 
