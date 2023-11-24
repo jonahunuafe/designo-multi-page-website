@@ -1,0 +1,32 @@
+
+.first-section {
+    background-color: var(--peach-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 25% 0% 35% 0%;
+    position: relative;
+    overflow: hidden;
+}
+
+.web-text {
+    position: relative;
+    z-index: 5;
+    width: 90%;
+    margin: auto;
+}
+
+.web-text p {
+    line-height: var(--line-height);
+    margin-top: -1.5%;
+}
+ 
+#small-circle {
+    position: absolute;
+    width: 100%;
+    top: -7.2rem;
+    right: 7.8rem;
+}
+
+#small-circle img {
+    width: 80%;
+}
