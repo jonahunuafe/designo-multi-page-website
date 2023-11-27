@@ -1,0 +1,53 @@
+.location {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.location span {
+    display: block;
+}
+
+.canada-map img, .australia-map img, .united-kingdom img {
+    width: 100%;
+}
+
+.address {
+    background-color: #FFDFDF;
+    position: relative;
+    top: -1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.7;
+    overflow: hidden;
+    z-index: -1;
+    padding: 20% 0 20% 0;
+}
+
+.address img {
+    width: 160%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    color: var(--peach-color);
+    letter-spacing: 0;
+}
+
+h4 {
+    font-weight: var(--very-bold);
+}
+
+.office {
+    margin-top: -3%;
+}
+
+.contact {
+    margin-top: 8.5%;
+}
+
+.second-location, .third-location {
+    margin-top: 10%;
+}
