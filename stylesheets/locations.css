@@ -7,20 +7,41 @@
     display: block;
 }
 
-.canada-map img, .australia-map img, .united-kingdom img {
+.canada-map {
+    background-image: url(../assets/locations/desktop/image-map-canada.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
+    height: 50vh;
+}
+
+.australia-map {
+    background-image: url(../assets/locations/desktop/image-map-australia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.uk-map {
+    background-image: url(../assets/locations/desktop/image-map-united-kingdom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
 }
 
 .address {
     background-color: #FFDFDF;
     position: relative;
-    top: -1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     line-height: 1.7;
     overflow: hidden;
-    z-index: -1;
     padding: 20% 0 20% 0;
 }
 
@@ -28,7 +49,6 @@
     width: 160%;
     position: absolute;
     top: 0;
-    left: 0;
 }
 
 h1 {
@@ -50,4 +70,50 @@ h4 {
 
 .second-location, .third-location {
     margin-top: 10%;
+}
+
+
+
+/* ****************** Tablet Design ******************** */
+@media(min-width: 768px) {
+    .address {
+        margin-top: 4%;
+        border-radius: 1rem;
+        padding: 5% 0 5% 0;
+    }
+
+    .location {
+        width: 90%;
+        margin: auto;
+    }
+
+    .canada-map {
+        background-image: url(../assets/locations/tablet/image-map-canada.png);
+        height: 40vh;
+    }
+
+    .australia-map {
+        background-image: url(../assets/locations/tablet/image-map-australia.png);
+        height: 40vh;
+    }
+
+    .address {
+        background-image: url(../assets/shared/desktop/bg-pattern-two-circles.svg);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: 90%;
+    }
+
+    .uk-map {
+        background-image: url(../assets/locations/tablet/image-map-uk.png);
+        height: 40vh;
+    }
+
+    .canada-map, .australia-map, .uk-map {
+        border-radius: 1rem;
+    }
+
+    .second-location, .third-location {
+        margin-top: 20%;
+    }
 }
