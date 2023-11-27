@@ -1,0 +1,107 @@
+.double-container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.airfilter {
+    background-image: url(../assets/app-design/desktop/image-airfilter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.eyecam {
+    background-image: url(../assets/app-design/desktop/image-eyecam.jpg);
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.faceit {
+    background-image: url(../assets/app-design/desktop/image-faceit.jpg);
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.todo {
+    background-image: url(../assets/app-design/desktop/image-todo.jpg);
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+} 
+
+.loopstudios {
+    background-image: url(../assets/app-design/desktop/image-loopstudios.jpg);
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.tim-text p {
+    margin-top: -5%;
+}
+
+
+@media(min-width: 768px) {
+    .tim-brown-container {
+        display: flex;    
+    }
+
+    .airfilter, .eyecam, .faceit, .todo, .loopstudios {
+        width: 75%;
+        height: 40vh;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1rem;
+    }
+
+    h2 {
+        margin-bottom: 10%;
+    }
+}
+
+@media(min-width: 800px) {
+    .double-container {
+        width: 90%;
+        margin: auto;
+        padding-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tim-brown-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .airfilter, .eyecam, .faceit, .todo, .loopstudios {
+        width: 100%;
+        height: 55vh;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 1rem;
+    }
+}
