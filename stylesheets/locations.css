@@ -41,7 +41,6 @@
     flex-direction: column;
     justify-content: center;
     line-height: 1.7;
-    overflow: hidden;
     padding: 20% 0 20% 0;
     background-image: url(../assets/shared/desktop/bg-pattern-three-circles.svg);
     background-repeat: no-repeat;
@@ -133,5 +132,73 @@ h4 {
 
     .second-location, .third-location {
         margin-top: 20%;
+    }
+}
+
+
+
+@media(min-width: 800px) {
+    .first-location, .third-location {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2%;
+    }
+
+    .canada-map, .uk-map {
+        width: 30%;
+    }
+
+    .address-col {
+        width: 70%;
+    }
+
+    .second-location {
+        display: flex;
+        gap: 2%;
+    }
+
+    .australia-map {
+        width: 30%;
+    }
+
+    .address {
+        width: 70%;
+        padding: 0;
+        margin-top: 0%;
+        background-size: 55%;
+        
+    }
+
+    .second-location, .third-location {
+        margin-top: 5%;
+    }
+
+    .address-container {
+        left: 0;
+        /* display: flex; */
+        /* flex: content; */
+        outline: 1px solid red;
+        width: 85%;
+        margin: auto;
+      
+    }
+
+    .office {
+        margin-top: 0%;
+        outline: 1px solid green;
+        width: 100%;
+    }
+    
+    .contact {
+    
+        outline: 1px solid orange;
+        width: 100%;
+        /* position: relative;
+        right: 12rem;
+        bottom: 2rem; */
+    }
+
+    h1 {
+        font-size: 2rem;
     }
 }
