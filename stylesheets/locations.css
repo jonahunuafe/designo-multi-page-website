@@ -43,12 +43,10 @@
     line-height: 1.7;
     overflow: hidden;
     padding: 20% 0 20% 0;
-}
-
-.address img {
-    width: 160%;
-    position: absolute;
-    top: 0;
+    background-image: url(../assets/shared/desktop/bg-pattern-three-circles.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 150%;
 }
 
 h1 {
@@ -76,10 +74,30 @@ h4 {
 
 /* ****************** Tablet Design ******************** */
 @media(min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
     .address {
         margin-top: 4%;
         border-radius: 1rem;
-        padding: 5% 0 5% 0;
+        padding: 15% 0 15% 0;
+    }
+
+    .address-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+        position: relative;
+        left: 4rem;
+    }
+
+    .office {
+        margin-top: 0;
+    }
+
+    .contact {
+        margin-top: 30%;
     }
 
     .location {
@@ -101,7 +119,7 @@ h4 {
         background-image: url(../assets/shared/desktop/bg-pattern-two-circles.svg);
         background-repeat: no-repeat;
         background-position: left bottom;
-        background-size: 90%;
+        background-size: 98%;
     }
 
     .uk-map {
