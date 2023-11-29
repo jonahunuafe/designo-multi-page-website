@@ -73,6 +73,75 @@ h2 {
     font-weight: var(--very-bold);
 }
 
+/* Third-section */
+.see-location {
+    margin-top: 25%;
+}
+
+.see-location-container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.canada, .australia, .uk {
+    background-image: url(../assets/shared/desktop/bg-pattern-small-circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.country {
+    margin-top: 15%;
+}
+
+.country button {
+    padding: 1.5em;
+    border-radius: 1em;
+    border: none;
+    text-transform: uppercase;
+    background: var(--peach-color);
+    color: var(--white-color);
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.country button:hover {
+    background: var(--lightPeach-color);
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Fourth section */
+.real-deal {
+    background: #FFDFDF;
+    margin-top: 25%;
+
+}
+
+.real-deal-avatar {
+    background-image: url(../assets/about/mobile/image-real-deal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%; 	
+    height: 50vh;
+}
+
+.real-deal-container {
+    padding-top: 15%;
+    padding-bottom: 25%;
+}
+
+h4 {
+    font-size: 2em;
+    color: #FA7070;
+}
+
+
+
+
 
 /* ************************ Tablets *************************** */
 @media(min-width: 768px) {
@@ -128,6 +197,8 @@ h2 {
     h2 {
         margin-top: 15%;
     }
+
+    /* Third section */
     
 
 }
@@ -163,8 +234,6 @@ h2 {
         margin: auto;
     }
 
-    
-
     .about-us p {
         margin-top: -10%;
     }
@@ -178,6 +247,7 @@ h2 {
     .world-class-talent {
         display: flex;
         padding-bottom: 0;
+        margin-top: 10%;
     }
 
     .world-class-avatar {
@@ -204,6 +274,15 @@ h2 {
 
     h2 {
         margin-top: 0;
+    }
+
+    /* Third section */
+    .see-location {
+        display: flex;
+    }
+
+    .see-location-col {
+        flex-basis: 33%;
     }
 
 }
