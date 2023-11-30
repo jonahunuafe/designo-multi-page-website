@@ -1,0 +1,128 @@
+.contact {
+    background-color: var(--peach-color);
+    color: var(--white-color);
+    text-align: center;
+}
+
+.contact-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+
+.contact-text p {
+    margin-top: -2%;
+    line-height: var(--line-height);
+}
+
+.form-container {
+    margin-top: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form label {
+    margin-top: 10%;
+}
+
+input {
+    outline: none;
+    border-style: none;
+    background: transparent;
+    border-bottom: 1px solid var(--white-color);
+    color: var(--white-color);
+    margin-top: 5%;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button {
+    width: 40%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 0.8em;
+    border: none;
+    margin-top: 10%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input:nth-of-type(4n) {
+    margin-top: 15%;
+}
+
+
+
+/* ******************* For Tablets ***************** */
+@media(min-width: 768px) {
+    .contact {
+        width: 90%;
+        margin: auto;
+    }
+
+    .contact {
+        text-align: left;
+        border-radius: 1rem;
+    }
+
+    .contact-container {
+        width: 85%;
+        padding-top: 15%;
+        padding-bottom: 25%;
+    }
+
+    .form-container {
+        margin-top: 0;
+    }
+
+    form {
+        position: relative;
+    }
+
+    form button {
+        width: 15em;
+        padding: 2em;
+        position: absolute;
+        right: 0;
+        bottom: -6rem;
+    }
+
+    
+
+}
+
+
+/* ******************* For Desktop ***************** */
+@media(min-width: 800px) {
+    form button:hover {
+        background: var(--lightPeach-color);
+        color: var(--white-color);
+    }
+
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 12%;
+        gap: 4rem;
+    }
+
+    .contact-col {
+        flex-basis: 48%;
+    }
+
+    .contact-text {
+        margin-top: 10%;
+    }
+
+    .contact-text p {
+        margin-top: -5%;
+    }
+}
+

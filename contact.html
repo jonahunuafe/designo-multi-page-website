@@ -5,33 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./stylesheets/index.css">
+  <link rel="stylesheet" href="./stylesheets/about.css">
+  <link rel="stylesheet" href="./stylesheets/contact.css">
   <title>Frontend Mentor | Designo Agency Website Challenge</title>
 </head>
 <body>
-  Our Company
-  Locations
-  Contact
+  <header>
+    <img src="./assets/shared/desktop/logo-dark.png" alt="designo-logo" id="logo">
+    <img src="./assets/shared/mobile/icon-hamburger.svg" alt="hamburger-menu" id="menu">
+    <nav>
+      <ul>
+        <li><a href="./about.html">Our Company</a></li>
+        <li><a href="./locations.html">Locations</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="contact">
+      <div class="contact-container">
+        <div class="contact-text contact-col">
+          <h1>Contact Us</h1>
+          <p>  
+            Ready to take it to the next level? Let’s talk about your project or idea and find out 
+            how we can help your business grow. If you are looking for unique digital experiences 
+            that’s relatable to your users, drop us a line.
+          </p>
+        </div>
+        <div class="form-container contact-col">
+          <form class="form">
+            <label for="username">Name</label>
+            <input type="text" id="username" name="username">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+            <label for="tel">Phone</label>
+            <input type="tel" id="tel" name="tel">
+            <label for="message">Your message</label>
+            <input type="text" id="message" name="message">
+            <button>Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
-  Contact us
-  Ready to take it to the next level? Let’s talk about your project or idea and find out how 
-  we can help your business grow. If you are looking for unique digital experiences that’s 
-  relatable to your users, drop us a line.
+    <section class="see-location">
+      <div class="see-location-container see-location-col">
+        <div class="canada">
+          <img src="./assets/shared/desktop/illustration-canada.svg" alt="">
+        </div>
+        <div class="country">
+          <h3>Canada</h3>
+          <button>See location</button>
+        </div>
+      </div>
 
-  Name
-  Email address
-  Phone
-  Your message
-  Submit
+      <div class="see-location-container see-location-col">
+        <div class="australia">
+          <img src="./assets/shared/desktop/illustration-australia.svg" alt="">
+        </div>
+        <div class="country">
+          <h3>Australia</h3>
+          <button>See location</button>
+        </div>
+      </div>
 
-  Canada
-  See location
+      <div class="see-location-container see-location-col">
+        <div class="uk">
+          <img src="./assets/shared/desktop/illustration-united-kingdom.svg" alt="">
+        </div>
+        <div class="country">
+          <h3>United Kingdom</h3>
+          <button>See location</button>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  Australia
-  See location
+  
 
-  United Kingdom
-  See location
+
+ 
+  
+  
+  
+  
 
   Our company
   Locations
