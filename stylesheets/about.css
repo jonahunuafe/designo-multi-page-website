@@ -34,7 +34,7 @@
 } */
 
 .about-us p {
-    margin-top: -2%;
+    margin-top: -5%;
 }
 
 /* Second section */
@@ -60,16 +60,17 @@
     text-align: center;
     width: 90%;
     margin: auto;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 h2 {
     color: #FA7070;
-    margin-top: 20%;
 }
 
 .world-class-text p {
     line-height: var(--line-height);
-    margin-top: 5%;
+    margin-top: 6%;
     font-weight: var(--very-bold);
 }
 
@@ -129,11 +130,6 @@ h3 {
     height: 50vh;
 }
 
-.real-deal-container {
-    padding-top: 15%;
-    padding-bottom: 25%;
-}
-
 h4 {
     font-size: 2em;
     color: #FA7070;
@@ -160,10 +156,14 @@ h4 {
         height: 40vh;
     }
 
-    .about-us {
-        width: 80%;
+    .about-us, .world-class-text {
+        width: 85%;
         padding-top: 10%;
         padding-bottom: 10%;
+    }
+
+    .about-us p {
+        margin-top: -7;
     }
 
     /* .about-image img {
@@ -177,10 +177,9 @@ h4 {
         width: 90%;
         margin: auto;
         border-radius: 1rem;
-        padding-bottom: 10%;
         background-position: center bottom;
         background-size: 95%;
-        margin-top: 20%;
+        margin-top: 15%;
     }
     
     .world-class-avatar {
@@ -194,12 +193,32 @@ h4 {
         border-top-right-radius: 1rem;
     }
 
-    h2 {
+    /* Third section */
+    .see-location {
+        margin-top: 20%;
+    }
+
+    .canada img, .australia img, .uk img {
+        width: 30%;
+    }
+
+    /* Fourth section */
+    .real-deal {
+        width: 90%;
+        margin: auto;
+        border-radius: 1rem;
         margin-top: 15%;
     }
 
-    /* Third section */
-    
+    .real-deal-avatar {
+        background-image: url(../assets/about/tablet/image-real-deal.jpg);
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    h2, h4 {
+        font-size: 2.5em;
+    }
 
 }
 
@@ -235,7 +254,7 @@ h4 {
     }
 
     .about-us p {
-        margin-top: -10%;
+        margin-top: -8%;
     }
 
     /* .about-image img {
@@ -244,6 +263,7 @@ h4 {
         top: -29rem;
     } */
     
+    /* Second section */
     .world-class-talent {
         display: flex;
         padding-bottom: 0;
@@ -259,7 +279,7 @@ h4 {
         border-bottom-left-radius: 1rem;
     }
 
-    .world-class-container {
+    .world-class-container, .real-deal-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -270,6 +290,8 @@ h4 {
         text-align: left;
         width: 80%;
         margin: auto;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     h2 {
@@ -278,11 +300,47 @@ h4 {
 
     /* Third section */
     .see-location {
-        display: flex;
+        margin-top: 0;
     }
 
+    .see-location-container {
+        margin-top: 8%;
+    }
+
+    .canada img, .australia img, .uk img {
+        width: 40%;
+    }
+
+    .see-location {
+        display: flex;
+    }
+    
     .see-location-col {
-        flex-basis: 33%;
+        flex-basis: 32%;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+    
+    /* Fourth section */
+    .real-deal {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 10%;
+    }
+
+    .real-deal-avatar {
+        background-image: url(../assets/about/desktop/image-real-deal.jpg);
+        width: 60%;
+        height: 80vh;
+        border-top-left-radius: 0;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    h2, h4 {
+        margin-bottom: -2%;
     }
 
 }
