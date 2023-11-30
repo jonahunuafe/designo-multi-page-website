@@ -81,7 +81,7 @@ h2 {
 
 .see-location-container {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .canada, .australia, .uk {
@@ -95,23 +95,24 @@ h2 {
     margin-top: 15%;
 }
 
-.country button {
-    padding: 1.5em;
-    border-radius: 1em;
+.button {
+    padding: 1.3rem;
+    border-radius: 1rem;
     border: none;
     text-transform: uppercase;
     background: var(--peach-color);
+    text-decoration: none;
     color: var(--white-color);
-    margin-top: 2%;
     cursor: pointer;
 }
 
-.country button:hover {
+.button:hover {
     background: var(--lightPeach-color);
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.2rem;
+    margin-bottom: 12%;
 }
 
 /* Fourth section */
