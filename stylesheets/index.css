@@ -29,6 +29,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
 /* First section */
 #logo {
     width: 100%;
@@ -238,7 +242,71 @@ h3 {
 }
 
 /* Fourth section */
+.project-talk {
+    background: var(--peach-color);
+    width: 90%;
+    margin: auto; 
+    border-radius: 1rem;
+    margin-bottom: -25%; 
+    position: relative;
+}
 
+.project-talk-container {
+    text-align: center;
+    color: var(--white-color);
+    width: 90%;
+    margin: auto;
+    line-height: var(--line-height);
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+
+h4 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.get-in-touch {
+    background: var(--white-color);
+    width: 50%;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    margin-top: 7%;
+}
+
+.get-in-touch a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: var(--very-bold);
+}
+
+footer {
+    background: var(--black-color);
+    color: var(--white-color);
+    padding-top: 35%;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 65%;
+    margin: auto;
+    padding: 6%;
+    border-bottom: 0.1px solid gray;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.nav-list ul li {
+    list-style: none;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+}
 
 
 
