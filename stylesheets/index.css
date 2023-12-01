@@ -299,6 +299,13 @@ footer {
     width: 100%;
 }
 
+.nav-list ul {
+    padding-top: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 .nav-list ul li {
     list-style: none;
 }
@@ -306,6 +313,26 @@ footer {
 .nav-list ul li a {
     text-decoration: none;
     color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.footer-address span {
+    display: block;
+} 
+
+.footer-address {
+    line-height: var(--line-height);
+    margin-top: 7%;
+    padding-bottom: 12%;
+}
+
+.central-office-two {
+    margin-top: 6%;
+    margin-bottom: 7%;
+}
+
+h5 {
+    font-size: 1.2rem;
 }
 
 
