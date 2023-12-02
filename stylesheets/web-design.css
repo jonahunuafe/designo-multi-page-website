@@ -1,34 +1,24 @@
-
 .first-section {
     background-color: var(--peach-color);
     color: var(--white-color);
     text-align: center;
     padding: 25% 0% 35% 0%;
-    position: relative;
-    overflow: hidden;
+    background-image: url(../assets/shared/desktop/bg-pattern-small-circle.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 95%;
 }
 
-.web-text {
+.text {
     position: relative;
     z-index: 5;
     width: 90%;
     margin: auto;
 }
 
-.web-text p {
+.text p {
     line-height: var(--line-height);
     margin-top: -1.5%;
-}
- 
-#small-circle {
-    position: absolute;
-    width: 100%;
-    top: -7.2rem;
-    right: 7.8rem;
-}
-
-#small-circle img {
-    width: 80%;
 }
 
 .express {
@@ -105,8 +95,31 @@
 
 
 @media(min-width: 768px) {
+    .first-section {
+        padding: 10% 0% 10% 0%;
+        background-image: url(../assets/web-design/desktop/bg-pattern-intro-web.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 125%;
+        width: 90%;
+        margin: auto;
+        border-radius: 1rem;
+    }
+    
+    .text {
+        width: 70%;
+    }
+    
+    .text p {
+        margin-top: -3.5%;
+    }
+
+    .tim-brown {
+        margin-top: 15%;   
+    }
+
     .tim-brown-container {
-        display: flex;    
+        display: flex; 
     }
 
     .express, .transfer, .photon, .builder, .blogr, .camp {
@@ -129,33 +142,40 @@
 
 
 @media(min-width: 800px) {
+    .first-section {
+        padding: 5% 0% 5% 0%;
+        background-size: cover;
+    }
+    
+    .text {
+        width: 35%;
+    }
+    
+    .text p {
+        margin-top: -5%;
+    }
+
     .tim-brown {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         width: 90%;
         margin: auto;
+        margin-top: 7.5%;
     }
 
     .tim-brown-container {
         display: flex;
         flex-direction: column;
         width: 100%;
+        height: 80vh;
 
     }
 
     .express, .transfer, .photon, .builder, .blogr, .camp {
         width: 100%;
-        height: 65vh;
+        height: 100%;
         border-bottom-left-radius: 0;
         border-top-right-radius: 1rem;
-    }
-
-    .tim-peach {
-        background-color: var(--peach-color);
-    }
-
-    .tim-peach h2, .tim-peach p {
-        color: var(--white-color);
     }
 
     .app-design {
@@ -168,12 +188,18 @@
         url(../assets/home/desktop/image-graphic-design.jpg);
     }
 
+    .sub-design-section {
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+
     .sub-design {
         display: flex;
         flex-direction: row;
         width: 90%;
+        height: 100%;
         margin: auto;
-        padding-top: 7%;
+        padding-top: 0;
     }
 
     .col {
