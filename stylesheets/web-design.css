@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 95%;
+    margin-bottom: 25%;
 }
 
 .text {
@@ -19,6 +20,10 @@
 .text p {
     line-height: var(--line-height);
     margin-top: -1.5%;
+}
+
+.tim-brown-leaf {
+    display: none;
 }
 
 .express {
@@ -114,6 +119,10 @@
         margin-top: -3.5%;
     }
 
+    .tim-brown-leaf {
+        display: none;
+    }
+
     .tim-brown {
         margin-top: 15%;   
     }
@@ -153,6 +162,15 @@
     
     .text p {
         margin-top: -5%;
+    }
+
+    .tim-brown-leaf {
+        display: block;
+        position: absolute;
+        width: 80%;
+        top: 12rem;
+        left: -2rem;
+        z-index: -10;
     }
 
     .tim-brown {

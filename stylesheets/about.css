@@ -22,16 +22,16 @@
     line-height: var(--line-height);
 }
 
-/* .about-image, .about-text {
+.about-image, .about-text {
     position: relative;
-} */
+}
 
-/* .about-image img {
+.about-image img {
     position: absolute;
     width: 75%;
     right: -1rem;
     top: -11rem;
-} */
+}
 
 .about-us p {
     margin-top: -5%;
@@ -40,11 +40,13 @@
 /* Second section */
 .world-class-talent {
     background: #FFDFDF;
-    /* background-image: url(../assets/shared/desktop/bg-pattern-three-circles.svg);
+}
+
+.world-class-container, .real-deal-container {
+    background-image: url(../assets/shared/desktop/bg-pattern-three-circles.svg);
     background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 145%;
-    padding-bottom: 17%; */
+    background-position: center center;
+    background-size: 130%;
 }
 
 .world-class-avatar {
@@ -119,7 +121,7 @@ h3 {
 .real-deal {
     background: #FFDFDF;
     margin-top: 25%;
-
+    margin-bottom: 35%;
 }
 
 .real-deal-avatar {
@@ -133,7 +135,6 @@ h3 {
 
 h4 {
     font-size: 2em;
-    color: #FA7070;
 }
 
 
@@ -163,15 +164,15 @@ h4 {
         padding-bottom: 10%;
     }
 
-    .about-us p {
-        margin-top: -7;
+    .about-image img {
+        width: 75%;
+        left: -5rem;
+        top: -11rem;
     }
 
-    /* .about-image img {
-        width: 100%;
-        right: 12rem;
-        top: -20rem;
-    } */
+    .about-us p {
+        margin-top: -7%;
+    }
 
     /* Second section */
     .world-class-talent {
@@ -181,6 +182,11 @@ h4 {
         background-position: center bottom;
         background-size: 95%;
         margin-top: 15%;
+    }
+
+    .world-class-container, .real-deal-container {
+        background-position: center right;
+        background-size: 90%;
     }
     
     .world-class-avatar {
@@ -268,7 +274,7 @@ h4 {
     .world-class-talent {
         display: flex;
         padding-bottom: 0;
-        margin-top: 10%;
+        margin-top: 7%;
     }
 
     .world-class-avatar {
@@ -301,7 +307,7 @@ h4 {
 
     /* Third section */
     .see-location {
-        margin-top: 0;
+        margin-top: -1%;
     }
 
     .see-location-container {
@@ -309,7 +315,7 @@ h4 {
     }
 
     .canada img, .australia img, .uk img {
-        width: 40%;
+        width: 35%;
     }
 
     .see-location {
@@ -328,7 +334,8 @@ h4 {
     .real-deal {
         display: flex;
         flex-direction: row-reverse;
-        margin-top: 10%;
+        margin-top: 8%;
+        margin-bottom: 7%;
     }
 
     .real-deal-avatar {

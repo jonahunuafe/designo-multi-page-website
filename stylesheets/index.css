@@ -124,12 +124,11 @@ h1 {
     cursor: pointer;
 }
 
-#phone {
-    width: 180%;
-    margin-top: -25%;
-    margin-left: -38.9%;
-    margin-bottom: -105%;
-}
+
+
+
+
+
 
 #web-design-large {
     display: none;
@@ -249,6 +248,11 @@ h3 {
     border-radius: 1rem;
     margin-bottom: -25%; 
     position: relative;
+    background-image: url(../assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 200%;
+    margin-top: 25%;
 }
 
 .project-talk-container {
@@ -258,12 +262,17 @@ h3 {
     margin: auto;
     line-height: var(--line-height);
     padding-top: 20%;
-    padding-bottom: 15%;
+    padding-bottom: 20%;
+}
+
+.project-talk-text {
+    margin-bottom: 12%;
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 2em;
     line-height: 1.5;
+    margin-bottom: 5%;
 }
 
 .get-in-touch {
@@ -271,8 +280,7 @@ h4 {
     width: 50%;
     margin: auto;
     border-radius: 1rem;
-    padding: 0.7rem;
-    margin-top: 7%;
+    padding: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: var(--very-bold);
@@ -380,45 +388,7 @@ h5 {
         font-weight: var(--very-bold);
     }
 
-    #small-circle img {
-        width: 110%;
-        right: -10rem;
-    }
-
-    #hero-phone {
-        width: 40%;
-    }
-
-    .frame-section {
-        width: 90%;
-        margin: auto;
-        border-radius: 1.5rem;
-    }
-
-    .frame-container {
-        width: 80%;
-    }
-
-    #frame-txt {
-        margin-top: 15%;
-    }
-
-    h1 {
-        font-size: 2.7rem;
-    }
-
-    #frame-txt p {
-        font-size: 1.2rem;
-        margin-top: -5%;
-    }
-
-    #hero-phone {
-        width: 150%;
-        margin-top: -25%;
-        margin-left: -23.5%;
-        margin-bottom: -85%;
-        position: relative;
-    }
+    /* First section */
 
     /* Second section */
     .web-design {
@@ -485,8 +455,12 @@ h5 {
 
     /* Fourth section */
     .project-talk {
-        margin-top: 5%;
+        margin-top: 7%;
         margin-bottom: -15%;
+        background-image: url(../assets/web-design/desktop/bg-pattern-intro-web.svg);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: 125%;
     }
 
     .project-talk-container {
@@ -495,9 +469,13 @@ h5 {
         padding-bottom: 10%;
     }
 
+    .project-talk-text p {
+        margin-bottom: -2%;
+    }
+
     h4 {
         font-size: 2.3rem;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
 
     .get-in-touch {
@@ -568,7 +546,7 @@ h5 {
     .footer-icons img {
         width: 10%;
         display: inline-flex;
-        height: 3vh;
+        height: 2.5vh;
         cursor: pointer;
     }
 }
@@ -583,7 +561,7 @@ h5 {
 
     #logo {
         width: 100%;
-        height: 100%;
+        height: 80%;
     }
 
     .home-page {
@@ -596,49 +574,6 @@ h5 {
     }
 
     /* First section */
-    #small-circle img {
-        width: 51.5%;
-        right: 0;
-        top: 0;
-    }
-
-    .frame-container {
-        display: flex;
-        justify-content: space-between;
-        width: 90%;
-        outline: 1px solid red;
-    }
-
-    /* #phone-hero {
-        width: 180%;
-        margin-top: -25%;
-        margin-left: -38.9%;
-        margin-bottom: -105%;
-    } */
-
-    #phone {
-        width: 100%;
-        position: relative;
-        margin-top: 0;
-        /* margin-bottom: -32%; */
-        /* transform: translate(15%, -6.5%); */
-    }
-
-    #frame-txt {
-        width: 40%;
-        margin-top: 10%;
-        text-align: left;
-        margin-left: 0;
-    }
-
-    #frame-txt p {
-        margin-bottom: 10%;
-    }
-
-    .frame-btn:hover {
-        background: var(--lightPeach-color);
-        color: var(--white-color);
-    }
 
 
     /* Second section */
@@ -654,6 +589,10 @@ h5 {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .web-design {
+        
     }
     
     .app-design {
@@ -736,8 +675,8 @@ h5 {
 
    /* Fourth section */
    .project-talk {
-    margin-bottom: -5%; 
-}
+        margin-bottom: -5%; 
+    }
 
     .project-talk-container {
         text-align: left;

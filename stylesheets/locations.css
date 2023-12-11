@@ -55,6 +55,7 @@ h1 {
 
 h4 {
     font-weight: var(--very-bold);
+    font-size: 1em;
 }
 
 .office {
@@ -69,12 +70,20 @@ h4 {
     margin-top: 10%;
 }
 
+.third-location {
+    margin-bottom: 30%;
+}
+
 
 
 /* ****************** Tablet Design ******************** */
 @media(min-width: 768px) {
     h1 {
         font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
     }
 
     .address {
@@ -133,6 +142,10 @@ h4 {
     .second-location, .third-location {
         margin-top: 20%;
     }
+
+    .third-location {
+        margin-bottom: 20%;
+    }
 }
 
 
@@ -165,37 +178,33 @@ h4 {
         width: 70%;
         padding: 0;
         margin-top: 0%;
-        background-size: 55%;
-        
+        background-size: contain;   
     }
 
     .second-location, .third-location {
-        margin-top: 5%;
+        margin-top: 2%;
+    }
+
+    .third-location {
+        margin-bottom: 7%;
     }
 
     .address-container {
         left: 0;
-        /* display: flex; */
-        /* flex: content; */
-        outline: 1px solid red;
+        display: flex;
         width: 85%;
         margin: auto;
-      
     }
 
-    .office {
-        margin-top: 0%;
-        outline: 1px solid green;
-        width: 100%;
+    .address-col {
+        flex-basis: 38%;
     }
     
     .contact {
-    
-        outline: 1px solid orange;
-        width: 100%;
-        /* position: relative;
-        right: 12rem;
-        bottom: 2rem; */
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 
     h1 {

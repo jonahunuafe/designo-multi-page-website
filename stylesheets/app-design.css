@@ -83,6 +83,10 @@
 }
 
 @media(min-width: 800px) {
+    .first-section {
+        margin-bottom: 3%;
+    }
+
     .double-container {
         width: 90%;
         margin: auto;
@@ -104,4 +108,9 @@
         border-bottom-left-radius: 0;
         border-top-right-radius: 1rem;
     }
+
+    .project-talk {
+        margin-bottom: -5%; 
+    }
+
 }
