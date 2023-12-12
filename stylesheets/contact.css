@@ -94,6 +94,10 @@ input:nth-of-type(4n) {
     margin-bottom: 35%;
 }
 
+.see-leaf {
+    display: none;
+}
+
 footer {
     padding-top: 10%;
     padding-bottom: 2%;
@@ -152,6 +156,10 @@ footer {
 
     .see-location {
         margin-bottom: 20%;
+    }
+
+    .see-leaf {
+        display: none;
     }
     
     footer {
@@ -217,6 +225,24 @@ footer {
 
     .see-location {
         margin-bottom: 10%;
+    }
+
+    .see-leaf {
+        display: block;
+        position: relative;
+        z-index: -10;
+    }
+
+    .see-leaf img {
+        width: 70%;
+        position: absolute;
+        right: 0;
+        transform: translateY(28%);
+    }
+    
+    footer {
+        padding-top: 10%;
+        padding-bottom: 0;
     }
     
     footer {
