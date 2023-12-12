@@ -149,6 +149,16 @@ footer {
         bottom: 3.3em;
         font-size: 0.9em;
     }
+
+    .see-location {
+        margin-bottom: 20%;
+    }
+    
+    footer {
+        padding-top: 10%;
+        padding-bottom: 0;
+    }
+    
 }
 
 
@@ -204,5 +214,13 @@ footer {
         font-size: 0.9em;
         margin-bottom: -2%;
     }
-}
 
+    .see-location {
+        margin-bottom: 10%;
+    }
+    
+    footer {
+        padding-top: 5%;
+        padding-bottom: 0;
+    }
+}
