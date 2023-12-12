@@ -76,6 +76,10 @@ h2 {
     font-weight: var(--very-bold);
 }
 
+#talent-leaf, .real-leaf {
+    display: none;
+}
+
 /* Third-section */
 .see-location {
     margin-top: 25%;
@@ -175,6 +179,10 @@ h4 {
     }
 
     /* Second section */
+    #talent-leaf, .real-leaf {
+        display: none;
+    }
+
     .world-class-talent {
         width: 90%;
         margin: auto;
@@ -215,6 +223,7 @@ h4 {
         margin: auto;
         border-radius: 1rem;
         margin-top: 15%;
+        margin-bottom: 17%;
     }
 
     .real-deal-avatar {
@@ -232,6 +241,10 @@ h4 {
 
 /*  ********************* Desktop ******************** */
 @media(min-width: 800px) {
+    /* body, html {
+        overflow-x: hidden;
+    } */
+
     .about {
         display: flex;
         flex-direction: row-reverse;
@@ -264,13 +277,22 @@ h4 {
         margin-top: -8%;
     }
 
-    /* .about-image img {
-        width: 120%;
-        right: -1rem;
-        top: -29rem;
-    } */
+    .about-image img {
+        width: 75%;
+        left: 0;
+        top: -18rem;
+    }
     
     /* Second section */
+   #talent-leaf {
+        display: block;
+        position: absolute;
+        width: 75%;
+        top: 27rem;
+        left: -2rem;
+        z-index: -10;
+    }
+
     .world-class-talent {
         display: flex;
         padding-bottom: 0;
@@ -304,6 +326,19 @@ h4 {
     h2 {
         margin-top: 0;
     }
+
+    .real-leaf {
+        display: block;
+        position: relative;
+    }
+
+    .real-leaf img {
+        position: absolute;
+        width: 60%;
+        transform: translate(95%, -40%);
+        z-index: -10;
+    }
+
 
     /* Third section */
     .see-location {

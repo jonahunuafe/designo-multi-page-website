@@ -2,6 +2,7 @@
     background-color: var(--peach-color);
     color: var(--white-color);
     text-align: center;
+    position: relative;
 }
 
 .contact-container {
@@ -11,9 +12,24 @@
     padding-bottom: 15%;
 }
 
+.contact-text {
+    position: relative;
+}
+
 .contact-text p {
     margin-top: -2%;
     line-height: var(--line-height);
+}
+
+#contact-circle-desktop {
+    display: none;
+}
+
+#contact-circle-mobile {
+    width: 170%;
+    position: absolute;
+    left: -1.2rem;
+    top: 0;
 }
 
 .form-container {
@@ -56,6 +72,33 @@ input:nth-of-type(4n) {
     margin-top: 15%;
 }
 
+#email {
+    width: 100%;
+}
+
+.email-error-container {
+    position: relative;
+}
+
+.error {
+   position: absolute;
+   bottom: 2.68em;
+   right: 0;
+   display: flex;
+   align-items: center;
+   gap: 0.7rem;
+   font-size: 0.8em;
+}
+
+.see-location {
+    margin-bottom: 35%;
+}
+
+footer {
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
 
 
 /* ******************* For Tablets ***************** */
@@ -63,17 +106,27 @@ input:nth-of-type(4n) {
     .contact {
         width: 90%;
         margin: auto;
-    }
-
-    .contact {
         text-align: left;
         border-radius: 1rem;
+        position: relative;
+        overflow: hidden;
     }
 
     .contact-container {
         width: 85%;
         padding-top: 15%;
         padding-bottom: 25%;
+    }
+
+    #contact-circle-mobile {
+        display: none;
+    }
+
+    #contact-circle-desktop {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -3rem;
     }
 
     .form-container {
@@ -89,11 +142,13 @@ input:nth-of-type(4n) {
         padding: 2em;
         position: absolute;
         right: 0;
-        bottom: -6rem;
+        bottom: -6.5rem;
     }
 
-    
-
+    .error {
+        bottom: 3.3em;
+        font-size: 0.9em;
+    }
 }
 
 
@@ -108,9 +163,9 @@ input:nth-of-type(4n) {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 0;
+        padding-top: 5%;
         padding-bottom: 12%;
-        gap: 4rem;
+        gap: 6rem;
     }
 
     .contact-col {
@@ -118,11 +173,36 @@ input:nth-of-type(4n) {
     }
 
     .contact-text {
-        margin-top: 10%;
+        margin-top: 7%;
     }
 
     .contact-text p {
         margin-top: -5%;
+    }
+
+    #contact-circle-desktop {
+        width: 40%;
+        left: 0;
+    }
+
+    form label {
+        margin-top: 5%;
+    }
+
+    input {
+        margin-top: 2%;
+    }
+
+    #message {
+        margin-top: 7%;
+    }
+    
+    .error {
+        position: relative;
+        float: right;
+        bottom: 3.6em;
+        font-size: 0.9em;
+        margin-bottom: -2%;
     }
 }
 
