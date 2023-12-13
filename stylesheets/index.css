@@ -83,45 +83,40 @@ nav ul li a {
 }
 
 /* Second section */
-.frame-section {
-    background-color: var(--peach-color);
-    position: relative;
-    overflow: hidden;
-    color: var(--white-color);
-}
+/* 
 
 #small-circle img {
     width: 180%;
     position: absolute;
     top: 7.8rem;
 }
+ */
 
-.frame-container {
-   width: 90%;
-   margin: auto;
-   position: relative;
+.branding-solutions {
+    background: var(--peach-color);
+    color: var(--white-color);
+    text-align: center;
+    padding-top: 20%;
 }
 
-#frame-txt {
-    text-align: center;
-    margin-top: 25%;
-    position: relative;
-    z-index: 10;
+.branding-solutions-container {
+    width: 90%;
+    margin: auto;
 }
 
 h1 {
     font-size: var(--h1-font);
     font-weight: var(--very-bold);
-    margin-bottom: 10%;
     letter-spacing: var(--letter-spacing);
 }
 
-#frame-txt p {
+.branding-solutions-text p {
     line-height: var(--line-height);
-    margin-bottom: 15%;
+    margin-top: 8%;
+    margin-bottom: 7%;
 }
 
-.frame-btn {
+.branding-solutions-text button {
     padding: 1.5rem;
     border: none;
     border-radius: 1rem;
@@ -130,15 +125,26 @@ h1 {
     color: var(--black-color);
     letter-spacing: var(--letter-spacing);
     font-weight: var(--very-bold);
-    text-decoration: none;
-    cursor: pointer;
+    cursor: pointer
 }
 
+.branding-solutions-text button:hover {
+    background: var(--lightPeach-color);
+    color: var(--white-color);
+}
 
+.phone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+    overflow: hidden;
+}
 
-
-
-
+.phone-container img {
+    width: 170%;
+    margin-top: -25%;
+}
 
 #web-design-large {
     display: none;
