@@ -33,7 +33,12 @@ body, html {
     overflow-x: hidden;
 }
 
-/* First section */
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .logo-div {
     width: 55%;
 }
@@ -48,12 +53,6 @@ body, html {
 
 .logo-div, #menu {
     margin: 10% 5% 10% 5%; 
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
 }
 
 nav {
@@ -78,30 +77,25 @@ nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     line-height: 3;
+    letter-spacing: var(--letter-spacing);
     color: var(--white-color);
-    font-family: 'Roboto Mono', monospace;
+    font-weight: var(--very-bold);
+    font-size: 1.8em;
 }
 
-/* Second section */
-/* 
-
-#small-circle img {
-    width: 180%;
-    position: absolute;
-    top: 7.8rem;
-}
- */
-
+/* first section */
 .branding-solutions {
     background: var(--peach-color);
     color: var(--white-color);
     text-align: center;
     padding-top: 20%;
+    overflow: hidden;
 }
 
 .branding-solutions-container {
     width: 90%;
     margin: auto;
+    position: relative;
 }
 
 h1 {
@@ -138,12 +132,22 @@ h1 {
     flex-direction: column;
     align-items: center;
     height: 65vh;
-    overflow: hidden;
 }
 
 .phone-container img {
     width: 170%;
     margin-top: -25%;
+}
+
+.branding-circle {
+    position: relative;
+}
+
+.branding-circle img {
+    position: absolute;
+    width: 165%;
+    top: 1.5rem;
+    left: 0;
 }
 
 #web-design-large {
@@ -373,6 +377,11 @@ h5 {
 /* ***************** FOR TABLETS ******************** */
 @media(min-width: 768px) {
     /* First section */
+    header {
+        width: 90%;
+        margin: 8% auto 8% auto;
+    }
+
     .logo-div {
         width: 30%;
         margin: 0;
@@ -391,8 +400,8 @@ h5 {
         position: relative;
         display: block;
         background-color: transparent;
-        width: 50%;
-        margin-top: -1.7%;
+        width: 60%;
+        margin-top: -1.3%;
         padding: 0;
     }
 
@@ -403,10 +412,40 @@ h5 {
 
     nav ul li a {
         color: var(--black-color);
-        font-weight: var(--very-bold);
+        font-size: 1em;
     }
 
     /* First section */
+    .branding-solutions {
+        width: 90%;
+        margin: auto;
+        border-radius: 1rem;
+        padding-top: 10%;
+    }
+
+    .branding-solutions-container {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .branding-solutions-text p {
+        margin-top: 6%;
+        margin-bottom: 5%;
+    }
+
+    .phone-container img {
+        width: 165%;
+        margin-top: -30%;
+    }
+
+    .branding-circle img {
+        width: 100%;
+        top: 1.5rem;
+        left: 5rem;
+    }
 
     /* Second section */
     .web-design {
@@ -574,7 +613,9 @@ h5 {
 /* ****************** FOR DESKTOP ******************* */
 @media(min-width: 800px) {
     header {
+        width: 100%;
         padding: 3% 5% 3% 5%;
+        margin: 0;
     }
 
     .logo-div {
@@ -587,13 +628,53 @@ h5 {
     }
 
     nav {
-        width: 30%;
+        width: 40%;
         margin-top: -0.5%;
     }
 
     /* First section */
+    .branding-solutions {
+        text-align: left;
+        padding: 0;
+    }
+    
+    .branding-solutions-container {
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    .branding-solutions-text p {
+        margin-top: 2.2%;
+        margin-bottom: 3%;
+    }
+    
+    .phone-container {
+        display: block;
+        width: 100%;
+    }
+    
+    .phone-container img {
+        width: 100%;
+        height: 110vh;
+        margin: 0;
+        transform: translate(28%, -10%);
+    }
 
+    .branding-circle {
+        transform: translateX(55%);
+    }
 
+    .branding-circle img {
+        width: 45%;
+        top: 0;
+        right: 0;
+    }
+    
     /* Second section */
     .designs {
         display: grid;
