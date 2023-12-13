@@ -34,34 +34,44 @@ body, html {
 }
 
 /* First section */
-#logo {
-    width: 100%;
+.logo-div {
+    width: 55%;
 }
 
-.home-page {
-    width: 55%;
+#logo {
+    width: 100%;
 }
 
 #menu {
     height: 25px;
 }
 
+.logo-div, #menu {
+    margin: 10% 5% 10% 5%; 
+}
+
 header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 10% 5% 10% 5%;
 }
 
 nav {
     background: var(--black-color);
+    width: 100%;
     position: absolute;
+    margin-top: 25%;
+    padding: 10% 0 10% 7%;
     display: none;
     z-index: 1;
 }
 
 nav ul li {
     list-style: none;
+}
+
+.show {
+    display: block;
 }
 
 nav ul li a {
@@ -357,13 +367,14 @@ h5 {
 /* ***************** FOR TABLETS ******************** */
 @media(min-width: 768px) {
     /* First section */
+    .logo-div {
+        width: 30%;
+        margin: 0;
+    }
+
     #logo {
         width: 100%;
         height: 100%;
-    }
-
-    .home-page {
-        width: 30%;
     }
 
     #menu {
@@ -376,6 +387,7 @@ h5 {
         background-color: transparent;
         width: 50%;
         margin-top: -1.7%;
+        padding: 0;
     }
 
     nav ul {
@@ -559,13 +571,13 @@ h5 {
         padding: 3% 5% 3% 5%;
     }
 
+    .logo-div {
+        width: 15%;
+    }
+
     #logo {
         width: 100%;
         height: 80%;
-    }
-
-    .home-page {
-        width: 15%;
     }
 
     nav {
