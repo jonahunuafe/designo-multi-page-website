@@ -62,7 +62,7 @@ nav {
     margin-top: 25%;
     padding: 10% 0 10% 7%;
     display: none;
-    z-index: 1;
+    z-index: 50;
 }
 
 nav ul li {
@@ -102,11 +102,11 @@ h1 {
     font-size: var(--h1-font);
     font-weight: var(--very-bold);
     letter-spacing: var(--letter-spacing);
+    margin-bottom: 8%;
 }
 
 .branding-solutions-text p {
     line-height: var(--line-height);
-    margin-top: 8%;
     margin-bottom: 7%;
 }
 
@@ -119,12 +119,8 @@ h1 {
     color: var(--black-color);
     letter-spacing: var(--letter-spacing);
     font-weight: var(--very-bold);
-    cursor: pointer
-}
-
-.branding-solutions-text button:hover {
-    background: var(--lightPeach-color);
-    color: var(--white-color);
+    cursor: pointer;
+    position: relative;
 }
 
 .phone-container {
@@ -625,6 +621,7 @@ h5 {
     #logo {
         width: 100%;
         height: 80%;
+        cursor: auto;
     }
 
     nav {
@@ -642,6 +639,11 @@ h5 {
         width: 90%;
         display: flex;
         align-items: center;
+    }
+
+    .branding-solutions-text button:hover {
+        background: var(--lightPeach-color);
+        color: var(--white-color);
     }
     
     h1 {
@@ -822,6 +824,10 @@ h5 {
 
     .footer-logo {
         width: 20%;
+    }
+
+    .footer-logo img {
+        cursor: auto;
     }
 
     .footer-nav {

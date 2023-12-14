@@ -11,13 +11,14 @@
 </head>
 <body>
   <header>
-    <a href="./index.html" class="home-page">
-      <img src="./assets/shared/desktop/logo-dark.png" alt="designo-logo" id="logo">
+    <a href="./index.html" class="logo-div">
+      <img src="/starter-code/assets/shared/desktop/logo-dark.png" alt="designo-logo" id="logo">
     </a>
-    <img src="./assets/shared/mobile/icon-hamburger.svg" alt="hamburger-menu" id="menu">
-    <nav>
+    <img src="/starter-code/assets/shared/mobile/icon-hamburger.svg" 
+    alt="hamburger-menu" id="menu" onclick="changeMenuToTimes()">
+    <nav class="nav">
       <ul>
-        <li><a href="">Our Company</a></li>
+        <li><a href="./about.html">Our Company</a></li>
         <li><a href="./locations.html">Locations</a></li>
         <li><a href="./contact.html">Contact</a></li>
       </ul>
@@ -164,6 +165,7 @@
         </div>
       </div>
     </div>
-  </footer> 
+  </footer>
+  <script src="./javascripts/index.js"></script> 
 </body>
 </html>

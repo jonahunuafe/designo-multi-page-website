@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="./stylesheets/index.css">
   <link rel="stylesheet" href="./stylesheets/graphic-design.css">
@@ -12,11 +11,12 @@
 </head>
 <body>
   <header>
-    <a href="./index.html" class="home-page">
-      <img src="./assets/shared/desktop/logo-dark.png" alt="designo-logo" id="logo">
+    <a href="./index.html" class="logo-div">
+      <img src="/starter-code/assets/shared/desktop/logo-dark.png" alt="designo-logo" id="logo">
     </a>
-    <img src="./assets/shared/mobile/icon-hamburger.svg" alt="hamburger-menu" id="menu">
-    <nav>
+    <img src="/starter-code/assets/shared/mobile/icon-hamburger.svg" 
+    alt="hamburger-menu" id="menu" onclick="changeMenuToTimes()">
+    <nav class="nav">
       <ul>
         <li><a href="./about.html">Our Company</a></li>
         <li><a href="./locations.html">Locations</a></li>
@@ -46,7 +46,6 @@
           </p>
         </div>
       </div>
-
       <div class="tim-brown-container">
         <div class="transfer"></div>
         <div class="tim-text">
@@ -56,7 +55,6 @@
           </p>
         </div>
       </div>
-
       <div class="tim-brown-container">
         <div class="photon"></div>
         <div class="tim-text">
@@ -113,7 +111,7 @@
         </div>
       </div>
     </section>
-
+    <!-- Fourth section -->
     <section class="project-talk">
       <div class="project-talk-container">
         <div class="project-talk-text">
@@ -162,5 +160,6 @@
       </div>
     </div>
   </footer>
+  <script src="./javascripts/index.js"></script>
 </body>
 </html>
