@@ -11,7 +11,7 @@ function validateEmail() {
         const span = document.createElement("span");
         span.textContent = "Can't be empty";
         const img = document.createElement("img");
-        img.setAttribute("src", "/starter-code/assets/contact/desktop/icon-error.svg");
+        img.setAttribute("src", "../assets/contact/desktop/bg-pattern-hero-desktop.svg");
         error.appendChild(span);
         error.appendChild(img);
     } 

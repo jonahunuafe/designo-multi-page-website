@@ -1,4 +1,4 @@
-const menu = document.querySelector("#menu");
+const menu = document.getElementById("menu");
 const nav = document.querySelector(".nav");
 const test = false;
 
