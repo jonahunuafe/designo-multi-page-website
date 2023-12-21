@@ -1,27 +1,26 @@
-const menu = document.getElementById("menu");
+const menu = document.querySelector('.fa-bars');
 const nav = document.querySelector(".nav");
 
-function changeMenuToTimes() {
-    if (menu.getAttribute('src') === './assets/shared/mobile/icon-hamburger.svg') {
-        menu.setAttribute('src', '/starter-code/assets/shared/mobile/icon-close.svg');
+const changeMenuToTimes = () => {
+    if (menu.classList.value === 'fa fa-bars fa-2x') {
+        menu.classList.replace('fa-bars', 'fa-times');
+    } else if (menu.classList.value === 'fa fa-times fa-2x') {
+        menu.classList.replace('fa-times', 'fa-bars');
     }
-      else {
-        menu.setAttribute('src', '/starter-code/assets/shared/mobile/icon-hamburger.svg');
-    } 
-}
+};
 
-function openNav(event) {
+const openNav = (event) => {
     nav.classList.toggle('show');
     event.stopPropagation();
 } 
 
-menu.addEventListener('click', changeMenuToTimes)
+menu.addEventListener('click', changeMenuToTimes);
 menu.addEventListener('click', openNav);
 
 document.addEventListener('click', function(event) {
     if (!nav.contains(event.target)) {
       nav.classList.remove('show');
-      menu.setAttribute('src', '/starter-code/assets/shared/mobile/icon-hamburger.svg');
     }
+    menu.classList.replace('fa-times', 'fa-bars');
 });
 
