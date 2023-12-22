@@ -19,8 +19,7 @@ menu.addEventListener('click', openNav);
 
 document.addEventListener('click', function(event) {
     if (!nav.contains(event.target)) {
-      nav.classList.remove('show');
+        nav.classList.remove('show');
     }
     menu.classList.replace('fa-times', 'fa-bars');
 });
-
