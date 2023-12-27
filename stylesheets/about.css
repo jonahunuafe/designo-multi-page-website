@@ -143,8 +143,6 @@ h4 {
 
 
 
-
-
 /* ************************ Tablets *************************** */
 @media(min-width: 768px) {
     .about, .world-class-talent {
@@ -241,10 +239,6 @@ h4 {
 
 /*  ********************* Desktop ******************** */
 @media(min-width: 800px) {
-    /* body, html {
-        overflow-x: hidden;
-    } */
-
     .about {
         display: flex;
         flex-direction: row-reverse;
