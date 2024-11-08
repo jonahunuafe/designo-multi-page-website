@@ -51,7 +51,7 @@ Users should be able to:
 - I learnt how to create background images.
 - I learnt the efficacy of positioning and the potency of z-index.
 
-*Am proud of this line of code below:*
+*Am proud of this line of code:*
 
 ```js
 const changeMenuToTimes = () => {
