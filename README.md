@@ -53,24 +53,16 @@ Users should be able to:
 - I learnt how to create background Images.
 - I learnt the efficacy positioning and the potency of z-index.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+Am proud of the line of code below:
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+const changeMenuToTimes = () => {
+  if (menu.classList.value === 'fa fa-bars fa-2x') {
+      menu.classList.replace('fa-bars', 'fa-times');
+    } else if (menu.classList.value === 'fa fa-times fa-2x') {
+      menu.classList.replace('fa-times', 'fa-bars');
+    }
+  };
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 
 ### Continued development
 
