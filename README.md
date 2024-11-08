@@ -48,7 +48,10 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- I actually learnt how to create a multipage website using different file name for each page together with their corresponding style sheet.
+- I learnt specificity by integrating a css style meant for a particular page into another page.
+- I learnt how to create background Images.
+- I learnt the efficacy positioning and the potency of z-index.
 
 To see how you can add code snippets, see below:
 
