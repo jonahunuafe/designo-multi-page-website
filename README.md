@@ -11,9 +11,7 @@ This is a solution to the [Designo agency website challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -53,7 +51,8 @@ Users should be able to:
 - I learnt how to create background Images.
 - I learnt the efficacy positioning and the potency of z-index.
 
-Am proud of the line of code below:
+*Am proud of the line of code below:*
+
 ```js
 const changeMenuToTimes = () => {
   if (menu.classList.value === 'fa fa-bars fa-2x') {
@@ -64,16 +63,8 @@ const changeMenuToTimes = () => {
   };
 ```
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 ## Author
 
 - Website - [Jonah Unuafe](https://jonahunuafe.github.io/designo-multi-page-website/)
 - Frontend Mentor - [@jonahunuafe](https://www.frontendmentor.io/profile/jonahunuafe)
 - Twitter - [@jonahunuafe](https://www.twitter.com/jonahunuafe)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
