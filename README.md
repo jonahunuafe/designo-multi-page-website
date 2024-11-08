@@ -70,7 +70,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Jonah Unuafe]()
+- Website - [Jonah Unuafe](https://jonahunuafe.github.io/designo-multi-page-website/)
 - Frontend Mentor - [@jonahunuafe](https://www.frontendmentor.io/profile/jonahunuafe)
 - Twitter - [@jonahunuafe](https://www.twitter.com/jonahunuafe)
 
