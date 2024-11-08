@@ -48,10 +48,10 @@ Users should be able to:
 
 - I actually learnt how to create a multipage website using different file name for each page together with their corresponding style sheet.
 - I learnt specificity by integrating a css style meant for a particular page into another page.
-- I learnt how to create background Images.
-- I learnt the efficacy positioning and the potency of z-index.
+- I learnt how to create background images.
+- I learnt the efficacy of positioning and the potency of z-index.
 
-*Am proud of the line of code below:*
+*Am proud of this line of code below:*
 
 ```js
 const changeMenuToTimes = () => {
